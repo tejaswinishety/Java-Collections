@@ -141,12 +141,12 @@ public class ListOperation {
         return false;
     }
 	
-    public static void main(String[] args) {
-		List<Integer> list = new ArrayList<Integer>(Arrays.asList(2, 2, 3, 3, 4, null, 8));
-		try {
-			System.out.println(splitAndArrange((list)));
-		} catch (IllegalArgumentException e) {
-			e.printStackTrace();
-		}
-	}
+//    public static void main(String[] args) {
+//		List<Integer> list = new ArrayList<Integer>(Arrays.asList(2, 2, 3, 3, 4, null, 8));
+//		try {
+//			System.out.println(splitAndArrange((list)));
+//		} catch (IllegalArgumentException e) {
+//			e.printStackTrace();
+//		}
+//	}
 }
